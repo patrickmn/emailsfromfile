@@ -1,6 +1,6 @@
 '''
   For building a Windows executable
-  Usage: python make_exe.py py2exe
+  Usage: python setup.py py2exe
 '''
 
 from distutils.core import setup
