@@ -46,5 +46,5 @@ if __name__ == '__main__':
     elif args == 3:
         main(sys.argv[1], sys.argv[2], sys.argv[3])
     else:
-        print "Usage: %s <filename> [separator] [encoding]" % (sys.argv[0],)
+        print "Usage: python %s <filename> [separator] [encoding]" % (sys.argv[0],)
         print "The default separator is a newline. To separate by space, literally enter 'space' as the separator."
