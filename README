@@ -1,11 +1,11 @@
 EmailsFromFile
 http://patrickmylund.com/projects/emailsfromfile/
 
-EmailsFromFile is a Python script that extracts all email addresses from a file.
-It follows a regular expression pattern based on the RFC 2822 standard and should
-thus return all valid email addresses regardless of how they appear in the file.
-For example, EmailsFromFile will distinguish between separate email addresses in
-a comma-separated list of values, such as a CSV file containing names, addresses,
-phone numbers and email addresses.
+EmailsFromFile is a Python script that extracts all unique email addresses from
+a file. It follows a regular expression pattern based on the RFC 2822 standard
+and should thus return all valid email addresses regardless of how they appear
+in the file. For example, EmailsFromFile will distinguish between separate email
+addresses in a comma-separated list of values, such as a CSV file containing names,
+addresses, phone numbers and email addresses.
 
 Usage: python emailsfromfile.py <filename> [separator] [encoding]
